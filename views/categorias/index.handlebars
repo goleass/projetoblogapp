@@ -1,0 +1,11 @@
+<div class="col-md-6 col-10" style="margin: 0 auto">
+    <h3>Categorias: </h3>
+    <ul class="list-group mt-3">
+        {{#each categorias}}
+        <a href="/categorias/{{slug}}" style="text-decoration: none"><li class="list-group-item list-group-item-action list-group-item-info">
+            {{nome}}
+        </li></a>
+        {{else}}
+        {{/each}}
+    </ul>
+</div>
